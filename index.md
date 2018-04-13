@@ -1,8 +1,8 @@
 <ul>
   {% for post in site.posts %}
-    <li style="list-style-type:none">
+    <div>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
-    </li>
+    </div>
   {% endfor %}
 </ul>
