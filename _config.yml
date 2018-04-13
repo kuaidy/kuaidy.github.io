@@ -1,0 +1,8 @@
+title: 写在开篇
+description: 分享即是快乐
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-modernist
+
+gems:
+  - jekyll-mentions
