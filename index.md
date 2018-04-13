@@ -1,1 +1,7 @@
-github个人主页创建成功，接下来继续折腾……
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
