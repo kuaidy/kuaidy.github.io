@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="优秀网站，有趣网站，创意网站，网址导航，上网主页，网站分享">
+    <meta name="description" content="优秀网站，在线音乐，免费视频，设计，游戏，学习，阅读，资源搜索，导航">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base target="_blank">
+	<title>小众导航--找点有趣的网站</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?03f8ad279ffe2551a5248a523213cac4";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	<meta name="baidu_union_verify" content="eca8b06640ca20341ee578ec86d7e7f3">
+	<meta name="baidu-site-verification" content="wx66rdv1hJ" />
+	<script src="//at.alicdn.com/t/font_2344911_ujxy4ymac.js"></script>
+</head>
+<body>
+	<div class="main">
+	<div id="header" class="outbox"><!--header-->
+        <div class="navinner">
+            <span id="span2"><a href="https://nav.rdonly.com/">小众导航</a></span>
+            <span id="span3">
+                <ul id="nav">
+                    <!-- <li><i>new</i><a href="./tooldown.html">软件下载</a></li> -->
+                    <!-- <li><a target="_blank" href="https://shimo.im/docs/tAx0zmGUMLwPTdsq/ 「留言&闲聊」">留言</a></li> -->
+                    <li id="moreinfo">
+                        <a href="./moresites.html" title="更多站点">更多</a>
+                        <!-- <ul id="moreinfo_tags">
+                            <li class="moreinfo_tag"><a href="http://blog.rdonly.com/">博客</a></li>
+                        </ul> -->
+                    </li>
+					<li><a href="./setting.html">设置</a></li>
+                    <li><a href="./update.html">关于</a></li>
+                </ul>
+            </span>
+        </div>
+    </div>
+
+	<div class="Setting">
+		<div class="setname">
+			<ul class="ulsettypes">
+				<li class="lisettype">
+					<label>自定义网址</label>
+					<input type="checkbox" class="switch" value="custom">
+				</li>
+			</ul>
+		</div>
+		<div class="setoption">
+			<!-- <input type="button" value="添加分类" class="optionbutton"> -->
+			<input type="button" value="添加网站" class="optionbutton" onclick="AddSite();">
+			<input type="button" value="删除网站" class="optionbutton" onclick="DelSite();">
+			<input type="file" id="importSites" value="" class="optionbutton" style="display:none;">
+			<input type="button" value="导入网站" class="optionbutton" onclick="Import();">
+			<input type="button" value="导出网站" class="optionbutton" onclick="Export();">
+			<input type="button" value="分享网站" class="optionbutton" onclick="Export();">
+			<span style="font-size:12px;color:red;">注意：自定义网站的数据存储在本地，删除本地数据就没有了。</span>
+			<!-- <input type="button" value="导出" class="optionbutton"> -->
+			<!-- <input type="button" value="导入" class="optionbutton"> -->
+		</div>
+
+		<div id="selfcontent" class="inner"><!--content-->
+			<!-- <div class="tags"> 
+				<span class="titlesign"></span>		
+				<h3>常用网站</h3>
+			</div>
+			<div class="sitediv" id="">
+				
+			</div> -->
+		</div> 
+	</div>
+
+	<div class="AddSites">
+	</div>
+	
+	<div class="AddForm">
+		<div class="sitetitle">
+			<span>网站名称</span>
+			<input type="text" id="sitename" class="siteinput" placeholder="例如：只读">
+		</div>
+
+		<div class="siteurl">
+			<span>网站地址</span>
+			<input type="text" id="siteurl" class="siteinput" placeholder="例如：https://www.rdonly.com">
+		</div>
+
+		<div class="sitetype">
+			<span>网站分类</span>
+			<input type="text" list="typelist" class="siteinput" id="sitetype" placeholder="例如：自定义-常用">
+		</div>
+		<div class="siteoption">
+			<input type="button" class="optionbutton" value="确定" onclick="Confirm();">
+			<input type="button" class="optionbutton" value="取消" onclick="Cancel();">
+		</div>
+	</div>	
+	</div>
+    
+</body>
+
+<script type="text/javascript" src="js/function.js"></script>
+
+<script type="text/javascript">
+	$(".switch").click(function(e){
+		console.log(this);
+		var data={"defaulttype":this.value,"canuse":this.checked};
+		var flag=IsSupportIndexeddb();
+		if(flag){
+			AddData(TBTYPE,data,IndexDefaultType,this.value);
+		}
+	});
+	$(".spandel").click(function(e){
+		console.log(this);
+		var flag=IsSupportIndexeddb();
+		if(flag){
+			Delete(TBSITES);
+		}
+	});
+	//显示添加界面
+	function AddSite(){
+		$(".AddSites").css("display","flex");
+		$(".AddForm").css("display","flex");
+	}
+	//显示删除按钮
+	function DelSite(){
+		var disval=$(".icon").css("display");
+		if(disval=="none"){
+			$(".icon").css("display","block");
+		}else{
+			$(".icon").css("display","none");
+		}
+	}
+	//关闭添加界面
+	function Cancel(){
+		$(".AddSites").css("display","none");
+		$(".AddForm").css("display","none");
+	}
+	//向indexdb添加数据
+	function Confirm(){
+		var flag=IsSupportIndexeddb();
+		var sitename=$("#sitename").val();
+		var siteurl=$("#siteurl").val();
+		var sitetype=$("#sitetype").val();
+		var data={"type":sitetype,"name":sitename,"url":siteurl};
+		if(flag){
+			Add(TBSITES,data);
+		}
+	}
+	//删除网站
+	function spanclick(e){
+		// console.log($(e).attr("data"));
+		var id=$(e).attr("data");
+		Delete(TBSITES,id);
+	}
+	//加载数据
+	function LoadData(){
+		readAll(TBSITES,"set");
+		// readAll(TBTYPE);
+	};
+	LoadData();
+	//导入网站
+	function Import(){
+		$("#importSites").click();
+	}
+
+</script>
+</html>

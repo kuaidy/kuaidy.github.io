@@ -1,0 +1,42 @@
+{
+	"error":false,
+	"site":[
+		{
+			"name":"Steam",
+			"siteurl":"https://store.steampowered.com/"
+		},
+		{
+			"name":"epic",
+			"siteurl":"https://www.epicgames.com/store/zh-CN/"
+		},
+		{
+			"name":"taptap",
+			"siteurl":"https://www.taptap.com/"
+		},
+		{
+			"name":"5173",
+			"siteurl":"http://www.5173.com/?recommenduserid=US14081065455191-03BF"
+		},
+		{
+			"name":"机核",
+			"siteurl":"https://www.gcores.com/"
+		},
+		{
+			"name":"奶牛关",
+			"siteurl":"https://cowlevel.net/"
+		},
+		{
+			"name":"游研社",
+			"siteurl":"https://www.yystv.cn/"
+		},
+		{
+			"name":"小黑盒",
+			"siteurl":"https://www.xiaoheihe.cn/home"
+		},
+		{
+			"name":"育碧游戏",
+			"siteurl":"https://www.ubisoft.com.cn/"
+		}
+		
+	]
+}

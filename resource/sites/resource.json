@@ -1,0 +1,32 @@
+{
+	"error":false,
+	"site":[
+		{
+			"name":"去转盘网",
+			"siteurl":"http://www.quzhuanpan.com/",
+			"status":"hot"
+		},
+		{
+			"name":"虫部落搜索",
+			"siteurl":"https://search.chongbuluo.com/"
+		},
+		{
+			"name":"爱给网",
+			"siteurl":"http://www.aigei.com/"
+		},
+		{
+			"name":"鸠摩搜书",
+			"siteurl":"https://www.jiumodiary.com/"
+		},
+		{
+			"name":"伪射手",
+			"siteurl":"http://assrt.net/",
+			"status":"hot"
+		},
+		{
+			"name":"大力盘",
+			"siteurl":"https://www.dalipan.com/",
+			"status":"hot"
+		}
+	]
+}

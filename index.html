@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="小众导航，优秀网站，有趣网站，创意网站，网址导航，上网主页，网站分享">
+    <meta name="description" content="优秀网站，在线音乐，免费视频，设计，游戏，学习，阅读，资源搜索，导航">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base target="_blank">
+	<title>小众导航--找点有趣的网站</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?6435e0e73299c539ee9a530ae16a3bdd";
+		var s = document.getElementsByTagName("script")[0]; 
+		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	<meta name="baidu_union_verify" content="eca8b06640ca20341ee578ec86d7e7f3">
+	<meta name="baidu-site-verification" content="wx66rdv1hJ" />
+	<script src="//at.alicdn.com/t/font_2344911_fmr1kve7j9.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="header" class="outbox"><!--header-->
+			<div class="navinner">
+				<span id="span2"><a href="https://nav.rdonly.com/">小众导航</a></span>
+				<span id="span3">
+					<ul id="nav">
+						<!-- <li><i>new</i><a href="./tooldown.html">软件下载</a></li> -->
+						<!-- <li><a target="_blank" href="https://shimo.im/docs/tAx0zmGUMLwPTdsq/ 「留言&闲聊」">留言</a></li> -->
+						<li id="moreinfo">
+							<a href="./moresites.html" title="更多站点">更多</a>
+							<!-- <ul id="moreinfo_tags">
+								<li class="moreinfo_tag"><a href="http://blog.rdonly.com/">博客</a></li>
+							</ul> -->
+						</li>
+						<li><a href="./setting.html">设置</a></li>
+						<li><a href="./update.html">关于</a></li>
+					</ul>
+				</span>
+			</div>
+		</div>
+
+		<div id="searchid">
+		    
+	    	<div id="sform" class="form-inline" role="form">
+				<select id="searchengineitems">
+					<option value ="baidu">百度</option>
+					<option value="sougou">搜狗</option>
+					<option value="bing">必应</option>
+					<!-- <option value="duckduckgo">duckduckgo</option> -->
+					<option value="magi">magi</option>
+					<option value="360">360</option>
+					<option value ="google">谷歌</option>
+					<option value="yandex">Yandex</option>
+				</select>
+	    		<input name="sears" id="search" type="text" placeholder="" autocomplete="off" class="form-control input-lg">
+				<button id="searchengine" value="百度" onclick="FindData();">
+					<svg class="icon" aria-hidden="true" style="display:initial;">
+						<use xlink:href="#icon-sousuo1"></use>
+					</svg>
+				</button>
+	    	</div>
+		   
+		    <!-- <div id="searchengineitems">
+		        <input type="submit" value="百度" id="baidu" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="谷歌" id="google" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="搜狗" id="sougou" button="" class="btn btn-primary" onclick="displayDate(this)">
+		    	<input type="submit" value="必应" id="biying" button="" class="btn btn-primary" onclick="displayDate(this)">
+		    	<input type="submit" value="谷歌学术" id="google1" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="微信" id="weixin" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="京东" id="jd" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="淘宝" id="taobao" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="知乎" id="zhihu" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="微博" id="weibo" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="豆瓣" id="douban" button="" class="btn btn-primary" onclick="displayDate(this)">
+		        <input type="submit" value="magi" id="magi" button="" class="btn btn-primary" onclick="displayDate(this)">
+		    </div> -->
+		</div>
+
+
+		<!--<div id="hongbao" style="position: fixed;right: 10px;bottom:10px;display: flex;flex-direction:column;cursor: pointer;" onclick="close()">-->
+		<!--	<div id="closehongbao" style="width:100%;text-align:center;">点我隐藏</div>-->
+		<!--	<img id="hongbaoimage" style="width: 150px;height:226px " src="http://appfuns.oss-cn-hongkong.aliyuncs.com/hongbao.jpg" alt="">-->
+		<!--</div>-->
+		<!-- 		<div class="inner">
+			<div id="tooldownload"><a id="toollink" href="">软件下载</a></div>
+			<div id="resourcedownload"><a id="resourcelink" href="">资源下载</a></div>
+			<div style="clear: both;"></div>
+		</div> -->
+		<!-- 		<div class="ChangePanel inner">
+			<span class="FunctionItem" id="FunctionLead">导航</span>
+			<span class="FunctionItem" id="FunctionShortcuts">快捷键</span>
+		</div> -->
+		<!-- 自定义导航 -->
+		<div id="selfcontent" class="inner"><!--content-->
+			<!-- <div class="tags"> 
+				<span class="titlesign"></span>		
+				<h3>常用网站</h3>
+			</div>
+			<div class="sitediv" id="">
+				
+			</div> -->
+		</div> 
+		<!-- 默认导航 -->
+		<div id="content" class="inner"><!--content-->
+			<!-- <div class="tags"> -->
+				<!-- <span class="titlesign"></span>		 -->
+				<!-- <h3>近期热门</h3> -->
+			<!-- </div> -->
+			<!-- <div class="sitediv" id="RecommandView"> -->
+				<!-- <a id="RecommandUrl" href="https://s.click.taobao.com/K9El2Ew"><h3 style="color: #fff;font-size: 25px;"></h3></a>				 -->
+				<!-- <a id="RecommandUrl" href="http://www.todayfl.com"><h3 style="color: #fff;font-size: 25px;"></h3></a> -->
+				<!-- <img src="https://api.kdcc.cn/img/jump.php" alt="" /> -->
+			<!-- </div> -->
+		</div> 
+		
+		<!--排行榜-->
+	    <!-- <div class="inner">content-->
+			<!-- <div class="tags"> -->
+				<!-- <span class="titlesign"></span>		 -->
+				<!-- <h3>实验室</h3> -->
+			<!-- </div> -->
+			<!-- <div class="sitechart">
+				<div id="chartmovies">
+			        <a href="https://movie.douban.com/chart" class="chartsurl"><h2>电影榜</h2></a>
+		        </div>
+		        <div id="center">
+			        <div id="chartmusic">
+				        <a href="http://music.163.com/#/discover/toplist?id=3778678" class="chartsurl"><h2>音乐榜</h2></a>
+			        </div>
+			        <div id="chartgame">
+				        <a href="http://top.17173.com/" class="chartsurl"><h2>游戏榜</h2></a>
+			        </div>
+		        </div>
+		        <div id="chartbook">
+			        <a href="https://book.douban.com/annual/2017?source=navigation" class="chartsurl"><h2>读书榜</h2></a>
+		        </div>
+			</div> -->
+		<!-- </div> -->
+		<!-- 其他功能 -->
+		<!-- <div class="ChangePanel inner"> -->
+			<!-- <span class="FunctionItem" id="FunctionShortcuts"><a href="./shortcuts.html" class="FunctionItemUrl">快捷键</a></span> -->
+			<!-- <span class="FunctionItem"><a href="laboratory/bgimage/backimage.html" class="FunctionItemUrl">生成图片</a></span> -->
+			<!-- <span class="FunctionItem"><a href="laboratory/emoji.html" class="FunctionItemUrl">可复制表情</a></span> -->
+		<!-- </div> -->
+
+		<div id="adddiv"></div>
+
+	    <div id="footer" class="outbox">
+		    <center>
+		        <p>
+                    <!-- Hosted by <a href="https://pages.coding.me">Coding Pages</a>| -->
+                    感谢<a href="https://github.com/kuaidy/kuaidy.github.io"><strong>Github</strong></a>提供服务支持
+	                <!-- <a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=wkwcdo5j"><strong>阿里云</strong></a>提供图片存储 -->
+				</p>
+		    </center>
+		</div><!--footer-->	
+
+	</div>
+</body>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript">
+	// getdata("none","自定义");
+	getdata("read","阅读");
+	getdata("video","视频");
+	getdata("music","听歌");
+	getdata("resource","资源");
+	getdata("shop","购物");
+	getdata("tool","工具");
+	getdata("community","社区");
+	// getdata("show","直播");
+	getdata("carton","动漫");
+	getdata("game","游戏");
+	getdata("design","设计");
+	getdata("blog","博客");
+	getdata("doconline","文档");
+	getdata("webmaster","站长");
+	getdata("study","学习");
+	getdata("question","问答");
+	getdata("app","应用");
+	getdata("write","自媒体");
+	getdata("work","工作");
+	getdata("cash","变现");
+	getdata("lead","导航");
+	ReadHomeData(TBTYPE);
+</script>
+<!-- //search -->
+<script>
+function displayDate(id){
+	var searchengine=document.getElementById('searchengine');
+	searchengine.innerHTML=id.value;
+	searchengine.value=id.value;
+}
+
+function FindData(){
+	var search=document.getElementById('search');
+	// var searchengine=document.getElementById('searchengine');
+	var query=search.value;
+	var selectItem=document.getElementById("searchengineitems");
+	var index=selectItem.selectedIndex;
+	var selectText=selectItem.options[index].text;
+	if(selectText=="百度"){
+		window.open("https://www.baidu.com/s?wd="+query);
+	}else if(selectText=="谷歌"){
+		window.open("http://www.google.com/search?q="+query);
+	}else if(selectText=="搜狗"){
+		window.open("https://www.sogou.com/web?query="+query);
+	}else if(selectText=="必应"){
+		window.open("http://cn.bing.com/search?q="+query);
+	}else if(selectText=="360"){
+		window.open("https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q="+query);
+	}else if(selectText=="magi"){
+		window.open("https://magi.com/search?q="+query);
+	}else if(selectText=="Yandex"){
+		window.open("https://yandex.com/search/?text="+query);
+	}else{
+
+	}
+}
+   
+document.onkeyup = function (e) {  
+    if (window.event)//如果window.event对象存在，就以此事件对象为准  
+        e = window.event;  
+    var code = e.charCode || e.keyCode;  
+    if (code == 13) {  
+        FindData();
+    }  
+} 	
+</script>
+
+<!-- <script>
+	$("#closehongbao").click(function(){
+  		$("#hongbao").slideUp("slow");
+	});
+	$("#hongbaoimage").click(function(){
+  		$("#hongbao").animate({
+  			width:"300px",
+  			height:"460px"
+  		});
+  		$("#hongbaoimage").animate({
+  			width:"300px",
+  			height:"450px"
+  		});
+	});
+	
+</script> -->
+<!-- <script>
+	SetIconBgColor()
+</script> -->
+<script>
+	$(document).ready(function(){
+		$("#adddiv").load("addsite.html");
+	});
+</script>
+
+<script>
+	ChangeHotProject();
+</script>
+
+
+</html>

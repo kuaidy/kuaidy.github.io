@@ -1,0 +1,21 @@
+{
+	"error":false,
+	"site":[
+		{
+			"name":"哔哩哔哩直播",
+			"siteurl":"http://live.bilibili.com/"
+		},
+		{
+			"name":"斗鱼",
+			"siteurl":"https://www.douyu.com/"
+		},
+		{
+			"name":"战旗",
+			"siteurl":"https://www.zhanqi.tv/"
+		},
+		{
+			"name":"虎牙",
+			"siteurl":"http://www.huya.com/"
+		}
+	]
+}

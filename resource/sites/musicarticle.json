@@ -1,0 +1,17 @@
+{
+	"error":false,
+	"site":[
+		{
+			"name":"挖沙网",
+			"siteurl":"http://www.waasaa.com"
+		},
+		{
+			"name":"有格调",
+			"siteurl":"https://www.ugediao.com/"
+		},
+		{
+			"name":"素锦",
+			"siteurl":"http://isujin.com/"
+		}
+	]
+}

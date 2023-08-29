@@ -1,0 +1,36 @@
+{
+	"error":false,
+	"site":[
+		{
+			"name":"谷歌联盟",
+			"siteurl":"https://www.google.com/adsense/",
+			"status":"hot"
+		},
+		{
+			"name":"万维广告",
+			"siteurl":"https://wwads.cn/"
+		},
+		{
+			"name":"百青藤",
+			"siteurl":"https://union.baidu.com/bqt/#/",
+			"status":"hot"
+		},
+		{
+			"name":"淘宝联盟",
+			"siteurl":"https://pub.alimama.com/",
+			"status":"hot"
+		},
+		{
+			"name":"京东联盟",
+			"siteurl":"https://union.jd.com/"
+		},
+		{
+			"name":"亚马逊联盟",
+			"siteurl":"https://associates.amazon.cn/"
+		},
+		{
+			"name":"口袋工厂",
+			"siteurl":"https://www.13lm.com/"
+		}
+	]
+}
