@@ -15,7 +15,7 @@ function getdata(resourcename,tagname){
 	var path="resource/sites/"+resourcename+".json";
 	var resourcename='#'+resourcename;
 	var fatherdom=$(resourcename);
-	 $.getJSON(path,function(data){
+	$.getJSON(path,function(data){
 		for(var i=0;i<data.site.length;i++){
 			
 		var x=Math.floor(Math.random()*100+1);
@@ -29,6 +29,13 @@ function getdata(resourcename,tagname){
 
 		fatherdom.append("<li style='clear:both;'></li>");
 	});
+}
+//新方法获取网址
+function GetData(){
+	var catPath="resource/category/category.json";
+	$.getJSON(catPath,function(data)){
+		console.log(data);
+	}
 }
 
 //软件下载

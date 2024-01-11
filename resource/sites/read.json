@@ -2,15 +2,6 @@
 	"error":false,
 	"site":[
 		{
-			"name":"每日一文",
-			"siteurl":"http://meiriyiwen.com/",
-			"status":"hot"
-		},
-		{
-			"name":"左岸读书",
-			"siteurl":"http://www.zreading.cn/"
-		},
-		{
 			"name":"一个",
 			"siteurl":"http://www.wufazhuce.com/"
 		},
@@ -35,12 +26,15 @@
 			"siteurl":"https://qnmlgb.tech/"
 		},
 		{
-			"name":"鱼塘热榜",
-			"siteurl":"https://mo.fish/"
-		},
-		{
 			"name":"it之家",
 			"siteurl":"https://www.ithome.com/"
+		},{
+			"name":"今日热榜",
+			"siteurl":"https://tophub.today/"
+		}
+		,{
+			"name":"威锋网",
+			"siteurl":"https://www.feng.com/"
 		}
 	]
 }

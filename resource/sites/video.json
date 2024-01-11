@@ -2,41 +2,24 @@
 	"error":false,
 	"site":[
 		{
-			"name":"茶杯狐",
-			"siteurl":"https://www.cupfox.com/"
-		},
-		{
-			"name":"neets",
-			"siteurl":"http://neets.cc/"
-		},
-		{
 			"name":"mvcat",
 			"siteurl":"http://www.mvcat.com/"
 		},
 		{
-			"name":"v电影",
-			"siteurl":"http://www.vmovier.com/",
-			"status":"hot"
-		},
-		{
-			"name":"预告片世界",
-			"siteurl":"http://www.yugaopian.cn/"
-		},
-		{
 			"name":"NO视频",
-			"siteurl":"http://www.novipnoad.com/"
+			"siteurl":"https://www.novipnoad.net/"
 		},
 		{
-			"name":"TopBook",
-			"siteurl":"http://topbook.cc/"
+			"name":"低端影视",
+			"siteurl":"https://ddys.pro/"
 		},
 		{
-			"name":"简影",
-			"siteurl":"https://tv.syrme.top/"
+			"name":"片吧",
+			"siteurl":"https://www.pbpbs.com/"
 		},
 		{
-			"name":"戏精TV",
-			"siteurl":"http://xijing.tv/movie/index"
+			"name":"在线之家",
+			"siteurl":"https://www.zxzjhd.com/"
 		},
 		{
 			"name":"电影狗搜索",
@@ -45,7 +28,14 @@
 		{
 			"name":"云播TV",
 			"siteurl":"https://www.yunbtv.net/"
+		},
+		{
+			"name":"片吧影院",
+			"siteurl":"https://www.pbpbs.com/"
+		},
+		{
+			"name":"伪人人影视",
+			"siteurl":"https://www.renren.pro/"
 		}
-		
 	]
 }
