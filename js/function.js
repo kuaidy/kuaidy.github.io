@@ -33,9 +33,9 @@ function getdata(resourcename,tagname){
 //新方法获取网址
 function GetData(){
 	var catPath="resource/category/category.json";
-	$.getJSON(catPath,function(data)){
+	$.getJSON(catPath,function(data){
 		console.log(data);
-	}
+	});
 }
 
 //软件下载
