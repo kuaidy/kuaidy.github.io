@@ -1,5 +1,6 @@
 {
 	"error":false,
+	"desc":"动漫",
 	"site":[
 		{
 			"name":"bilibili",
@@ -45,6 +46,10 @@
 		{
 			"name":"蜜柑计划",
 			"siteurl":"https://mikanime.tv/"
+		},
+		{
+			"name":"Kox.moe",
+			"siteurl":"https://mox.moe/"
 		}
 	]
 }

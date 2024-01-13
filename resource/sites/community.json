@@ -1,5 +1,6 @@
 {
 	"error":false,
+	"desc":"社区",
 	"site":[
 		{
 			"name":"Github",
@@ -55,6 +56,14 @@
 		{
 			"name":"过早客",
 			"siteurl":"https://www.guozaoke.com/"
+		},
+		{
+			"name":"NGA",
+			"siteurl":"https://www.nga.cn/"
+		},
+		{
+			"name":"虫部落",
+			"siteurl":"https://www.chongbuluo.com/"
 		}
 	]
 }

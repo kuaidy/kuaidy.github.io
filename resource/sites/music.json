@@ -1,5 +1,6 @@
 {
 	"error":false,
+	"desc":"音乐",
 	"site":[
 		{
 			"name":"网易云音乐",
@@ -37,6 +38,10 @@
 		{
 			"name":"铜钟",
 			"siteurl":"https://tonzhon.com/"
+		},
+		{
+			"name":"hifini",
+			"siteurl":"https://www.hifini.com/"
 		}
 	]
 }

@@ -1,5 +1,6 @@
 {
 	"error":false,
+	"desc":"应用",
 	"site":[
 		{
 			"name":"异次元软件",
@@ -59,6 +60,10 @@
 		{
 			"name":"极简插件",
 			"siteurl":"https://chrome.zzzmh.cn/"
+		},
+		{
+			"name":"HelloWindows",
+			"siteurl":"https://hellowindows.cn/"
 		}
 	]
 }

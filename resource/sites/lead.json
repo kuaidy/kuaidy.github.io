@@ -1,5 +1,6 @@
 {
 	"error":false,
+	"desc":"导航",
 	"site":[
 		{
 			"name":"龙轩导航",
@@ -17,15 +18,6 @@
 		{
 			"name":"CreativeMass",
 			"siteurl":"https://creativemass.cn/"
-		},
-		{
-			"name":"米范",
-			"siteurl":"https://www.mifar.net/"
-		},
-		{
-			"name":"小呆导航",
-			"siteurl":"http://www.webjike.com/index.html",
-			"status":"hot"
 		},
 		{
 			"name":"全球酷站",
@@ -68,10 +60,6 @@
 			"siteurl":"https://bigezhang.com/"
 		},
 		{
-			"name":"黑点导航",
-			"siteurl":"https://www.ihddh.com/"
-		},
-		{
 			"name":"阿酷导航",
 			"siteurl":"https://www.a.cool/"
 		},
@@ -80,12 +68,8 @@
 			"siteurl":"https://nav.zhouxiaoben.info"
 		},
 		{
-			"name":"蔚蓝主页",
-			"siteurl":"https://www.weilanzy.com"
-		},
-		{
 			"name":"笔点导航",
-			"siteurl":"https://www.weilanzy.com"
+			"siteurl":"https://www.bidianer.com/m"
 		}
 	]
 }
