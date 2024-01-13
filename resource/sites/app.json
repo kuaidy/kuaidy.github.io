@@ -59,6 +59,22 @@
 		{
 			"name":"极简插件",
 			"siteurl":"https://chrome.zzzmh.cn/"
+		},
+		{
+			"name":"漫画[支持下载、推送]",
+			"siteurl":"https://mox.moe/"
+		},
+		{
+			"name":"windows镜像",
+			"siteurl":"https://hellowindows.cn/"
+		},
+		{
+			"name":"无损音乐",
+			"siteurl":"https://www.hifini.com/"
+		},
+		{
+			"name":"高清壁纸",
+			"siteurl":"https://wallhaven.cc/"
 		}
 	]
 }
